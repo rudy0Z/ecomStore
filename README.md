@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
 
-## Project info
+# Shop Smart – Explore Easily
 
-**URL**: https://lovable.dev/projects/f24e553f-eb7d-456c-82f2-8867d1cb282a
+An elegant, modern e-commerce web app for discovering, filtering, and shopping products with a seamless user experience.
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+- **Landing Page:** Eye-catching hero section, featured products, and quick add-to-cart.
+- **Product Catalog:**
+  - Browse by categories, offers, or search.
+  - Grid/List view toggle.
+  - Advanced filtering (category, price, rating, in-stock).
+  - Sorting (featured, price, rating, newest).
+- **Product Details:**
+  - Modal with images, price, discount, description, and add-to-cart.
+  - Wishlist and quick actions.
+- **Shopping Cart:**
+  - Slide-in cart sidebar with item management.
+  - Update quantity, remove items, clear cart.
+  - Cart summary and checkout button.
+- **Checkout Flow:**
+  - Multi-step checkout (cart, shipping, payment, confirmation).
+  - Address and payment form (UI only, no real payment integration).
+- **Wishlist:**
+  - Add/remove products to wishlist.
+  - Move items from wishlist to cart.
+- **User Profile:**
+  - View and edit profile info.
+  - Tabs for orders, wishlist, and payment methods (UI only).
+- **Offers & Flash Sales:**
+  - Dedicated offers page with featured deals and flash sales.
+- **Responsive Design:**
+  - Fully mobile-friendly and accessible.
+- **Modern UI:**
+  - Built with React, Vite, shadcn-ui, and Tailwind CSS.
+  - Custom toasts, dialogs, carousels, and more.
 
-**Use Lovable**
+## 🚀 Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f24e553f-eb7d-456c-82f2-8867d1cb282a) and start prompting.
+1. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+2. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+3. **Open in your browser:**
+   Visit [http://localhost:5173](http://localhost:5173)
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📁 Project Structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- `src/pages/` – Main pages (Landing, Categories, Offers, Wishlist, Profile, Checkout)
+- `src/components/` – UI and store components (ProductCard, ShoppingCart, etc.)
+- `src/contexts/` – App-wide state management (cart, wishlist, user)
+- `src/data/` – Mock product data
+- `src/hooks/` – Custom React hooks
+- `src/lib/` – Utility functions
 
-Follow these steps:
+## 📦 Features in Detail
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Product Browsing:**
+  - Search, filter, and sort products easily.
+  - View product details in a modal without leaving the page.
+- **Cart & Wishlist:**
+  - Add, remove, and update items in cart and wishlist.
+  - Cart sidebar for quick access.
+- **Checkout:**
+  - Multi-step checkout UI (cart, shipping, payment, confirmation).
+- **User Profile:**
+  - Edit profile, view orders and wishlist (UI only).
+- **Offers:**
+  - See current deals and flash sales.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f24e553f-eb7d-456c-82f2-8867d1cb282a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+> **Note:** This project is for demo/educational purposes. No real payment or authentication is implemented.
